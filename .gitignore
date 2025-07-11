@@ -1,0 +1,56 @@
+# Archivos de Terraform
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+*.tfstate.lock.info
+.terraform/
+.terraform.lock.hcl
+.terraform.tfstate.lock
+
+# Archivos de variables locales (sensibles)
+*.tfvars
+!*.tfvars.example
+!example.tfvars
+
+# Archivos de logs
+*.log
+crash.log
+crash.*.log
+
+# Archivos temporales
+*.tmp
+*.temp
+*.tmp.*
+
+# Archivos de configuración local y credenciales
+.aws/
+.ssh/
+*.pem
+*.key
+.env
+.env.local
+.env.*.local
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Archivos de backup
+*.backup
+*.bak
+*.old
+
+# Archivos de plan de Terraform
+*.tfplan
+*.tfplan.json
+
+# Archivos de crash
+crash.log 
